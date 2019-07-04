@@ -25,7 +25,7 @@ import org.apache.spark.ps.cluster.Message
 import org.apache.spark.ps.cluster.Message.{CreateOrRemovePythonCondaEnvResponse, CreateOrRemovePythonCondaEnvResponseItem}
 import org.apache.spark.rpc._
 import org.apache.spark.util.{ThreadUtils, Utils}
-import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.{MLSQLConf, SparkConf, SparkContext}
 
 import scala.collection.mutable
 import scala.collection.mutable.{ArrayBuffer, HashMap}

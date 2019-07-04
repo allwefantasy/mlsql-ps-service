@@ -20,12 +20,12 @@ package org.apache.spark.ps.cluster
 
 import java.util.concurrent.atomic.AtomicReference
 
-import org.apache.spark.{MLSQLConf, SparkContext}
 import org.apache.spark.internal.Logging
 import org.apache.spark.internal.config._
 import org.apache.spark.rpc.{RpcEndpointRef, RpcEnv}
 import org.apache.spark.scheduler.cluster.PSDriverEndpoint
 import org.apache.spark.security.CryptoStreamUtils
+import org.apache.spark.{MLSQLConf, SparkContext}
 
 /**
   * Created by allwefantasy on 30/1/2018.
