@@ -9,7 +9,7 @@ the right jar from [mlsql-ps-service](http://download.mlsql.tech/1.3.0-SNAPSHOT)
 
 Jar Example:
 ```
-mlsql-ps-service_2.4.3_2.11-1.3.0.jar 
+mlsql-ps-service_2.4.3_2.11-1.3.1.jar 
 ```
 
 * 2.4.3  Spark version
