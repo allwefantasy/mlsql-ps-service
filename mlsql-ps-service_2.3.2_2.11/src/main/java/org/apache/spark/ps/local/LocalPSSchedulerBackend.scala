@@ -29,8 +29,8 @@ import org.apache.spark.rpc.{RpcCallContext, RpcEndpointRef, RpcEnv, ThreadSafeR
 import org.apache.spark.scheduler._
 import org.apache.spark.scheduler.cluster.CoarseGrainedClusterMessages.StopExecutor
 import org.apache.spark.{SparkConf, SparkContext, SparkEnv}
-import streaming.common.HDFSOperator
-import streaming.dsl.mmlib.algs.python.BasicCondaEnvManager
+import tech.mlsql.common.utils.env.python.BasicCondaEnvManager
+import tech.mlsql.common.utils.hdfs.HDFSOperator
 
 import scala.collection.mutable.ArrayBuffer
 

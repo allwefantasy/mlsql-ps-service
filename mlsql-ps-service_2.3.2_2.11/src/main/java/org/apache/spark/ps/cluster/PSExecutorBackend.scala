@@ -24,8 +24,8 @@ import org.apache.spark.SparkEnv
 import org.apache.spark.internal.Logging
 import org.apache.spark.rpc.{RpcCallContext, RpcEnv, ThreadSafeRpcEndpoint}
 import org.apache.spark.util.ThreadUtils
-import streaming.common.HDFSOperator
-import streaming.dsl.mmlib.algs.python.BasicCondaEnvManager
+import tech.mlsql.common.utils.env.python.BasicCondaEnvManager
+import tech.mlsql.common.utils.hdfs.HDFSOperator
 
 import scala.util.{Failure, Success}
 

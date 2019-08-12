@@ -19,7 +19,25 @@ mlsql-ps-service_2.4.3_2.11-1.3.3.jar
 The only two things to make this jar work is 
 
 1. Put the jar into path $SPARK_HOME/libs
-2. set -streaming.ps.cluster.enable true 
+2. set -streaming.ps.cluster.enable true
+
+## Deploy
+
+```
+# spark 2.4 
+mvn clean deploy -DskipTests -Pspark-2.4.3 -Pspark-2.3.2 -Pdisable-java8-doclint -Prelease-sign-artifacts
+``` 
+
+## Build
+
+```
+# spark 2.4 
+mvn clean package -DskipTests -Pspark-2.4.3  -Pshade
+
+# spark 2.3 
+mvn clean package -DskipTests -Pspark-2.3.2  -Pshade
+
+``` 
 
 
 
