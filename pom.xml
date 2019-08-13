@@ -42,7 +42,7 @@
         <url>https://github.com/allwefantasy/mlsql-ps-service/issues</url>
     </issueManagement>
     <properties>
-        <common-utils-version>0.1.5</common-utils-version>
+        <common-utils-version>0.1.6</common-utils-version>
     </properties>
     <profiles>
         <profile>
