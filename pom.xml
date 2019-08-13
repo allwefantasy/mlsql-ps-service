@@ -41,7 +41,9 @@
     <issueManagement>
         <url>https://github.com/allwefantasy/mlsql-ps-service/issues</url>
     </issueManagement>
-
+    <properties>
+        <common-utils-version>0.1.5</common-utils-version>
+    </properties>
     <profiles>
         <profile>
             <id>spark-2.3.2</id>

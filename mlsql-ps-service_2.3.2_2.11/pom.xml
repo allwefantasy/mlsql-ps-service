@@ -31,6 +31,7 @@
         <jackson.version>2.6.7.1</jackson.version>
         <json4s.version>3.5.3</json4s.version>
         <lift-json.version>3.3.0</lift-json.version>
+        
     </properties>
     <profiles>
         <profile>
@@ -72,7 +73,7 @@
         <dependency>
             <groupId>tech.mlsql</groupId>
             <artifactId>common-utils_${scala.binary.version}</artifactId>
-            <version>0.1.4</version>
+            <version>${common-utils-version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.python</groupId>
